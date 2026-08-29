@@ -1,0 +1,35 @@
+# Build artifacts
+*.o
+*.obj
+*.a
+*.so
+*.dylib
+*.dll
+*.exe
+
+# Binarios de teste (sem extensao)
+crypto_test
+crypto_test_asan
+crypto_test_tsan
+pentest_harness
+pentest_harness_scale
+pentest_harness_tsan
+check_final
+check_sizes
+probe_mlock
+probe_mlock2
+poc_kdf
+poc_kdf_fixed
+poc_interaction_entropy
+poc_timestamp_mixing
+poc_pool_overflow
+poc_rev6_chain_check
+
+# Logs de teste/benchmark
+*.log
+
+# OS / editor
+.DS_Store
+*.swp
+*~
+
