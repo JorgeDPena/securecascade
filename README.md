@@ -19,15 +19,15 @@ Sistema de criptografia em C (libsodium) baseado no conceito de **Wall of Entrop
 ## Build
 
 ```
-gcc -O2 -Wall -Wextra crypto_test.c -o crypto_test -lsodium -lpthread
+gcc -O2 -Wall -Wextra securecascade.c -o securecascade -lsodium -lpthread
 ```
 
 ## Uso
 
 ```
-./crypto_test --demo
-./crypto_test --benchmark
-./crypto_test --stress
+./securecascade --demo
+./securecascade --benchmark
+./securecascade --stress
 ```
 
 ## Aviso
